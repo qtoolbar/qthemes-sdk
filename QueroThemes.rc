@@ -1,0 +1,177 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Austria) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEA)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN_AUSTRIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 5,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080004b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Theme File for Quero Toolbar\0"
+            VALUE "FileVersion", "1, 0, 0, 0\0"
+            VALUE "InternalName", "QueroIcons\0"
+            VALUE "LegalCopyright", "Copyright Viktor Krammer, 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "QueroTheme_Default.dll\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Quero Theme\0"
+            VALUE "ProductVersion", "5, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x800, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_BUTTON_GO           ICON    DISCARDABLE     "Icons\\button_go.ico"
+IDI_BUTTON_GO_HOT       ICON    DISCARDABLE     "Icons\\button_go_hot.ico"
+IDI_SEARCH              ICON    DISCARDABLE     "Icons\\search.ico"
+IDI_URL1                ICON    DISCARDABLE     "Icons\\url1.ico"
+IDI_SEARCH_HOT          ICON    DISCARDABLE     "Icons\\search_hot.ico"
+IDI_IDN                 ICON    DISCARDABLE     "Icons\\icon_idn.ico"
+IDI_OPT_NAVIGATION      ICON    DISCARDABLE     "Icons\\options_navigation.ico"
+IDI_OPT_ADBLOCKER       ICON    DISCARDABLE     "Icons\\options_adblocker.ico"
+IDI_OPT_SEARCH          ICON    DISCARDABLE     "Icons\\options_search.ico"
+IDI_123                 ICON    DISCARDABLE     "Icons\\icon_123.ico"
+IDI_LOCK                ICON    DISCARDABLE     "Icons\\icon_lock.ico"
+IDI_OPT_SECURITY        ICON    DISCARDABLE     "Icons\\options_security.ico"
+IDI_NAV_BACK            ICON    DISCARDABLE     "Icons\\nav_back.ico"
+IDI_NAV_FORWARD         ICON    DISCARDABLE     "Icons\\nav_forward.ico"
+IDI_NAV_STOP            ICON    DISCARDABLE     "Icons\\nav_stop.ico"
+IDI_NAV_REFRESH         ICON    DISCARDABLE     "Icons\\nav_refresh.ico"
+IDI_BIN                 ICON    DISCARDABLE     "Icons\\icon_bin.ico"
+IDI_NAV_BACK_DISABLED   ICON    DISCARDABLE     "Icons\\nav_back_disabled.ico"
+IDI_NAV_FORWARD_DISABLED ICON    DISCARDABLE     "Icons\\nav_forward_disabled.ico"
+IDI_SEARCH_NOTFOUND     ICON    DISCARDABLE     "Icons\\search_notfound.ico"
+IDI_OPT_BUTTONS         ICON    DISCARDABLE     "Icons\\options_buttons.ico"
+IDI_NAV_BACK_HOT        ICON    DISCARDABLE     "Icons\\nav_back_hot.ico"
+IDI_NAV_FORWARD_HOT     ICON    DISCARDABLE     "Icons\\nav_forward_hot.ico"
+IDI_NAV_REFRESH_HOT     ICON    DISCARDABLE     "Icons\\nav_refresh_hot.ico"
+IDI_NAV_STOP_HOT        ICON    DISCARDABLE     "Icons\\nav_stop_hot.ico"
+IDI_OPT_TYPEFIND        ICON    DISCARDABLE     "Icons\\options_typefind.ico"
+IDI_NAV_HOME            ICON    DISCARDABLE     "Icons\\nav_home.ico"
+IDI_NAV_HOME_HOT        ICON    DISCARDABLE     "Icons\\nav_home_hot.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SHIELD              BITMAP  DISCARDABLE     "Icons\\shield.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_QUEROTHEME_FORMAT   "Quero Theme File"
+    IDS_QUEROTHEME_VERSION  "1"
+    IDS_QUEROTHEME_AUTHOR   "Viktor Krammer"
+    IDS_QUEROTHEME_NAME     "Default"
+    IDS_QUEROTHEME_NAVBUTTONSIZE "24"
+    IDS_QUEROTHEME_BUTTONSIZE "20"
+    IDS_QUEROTHEME_COLOR_SEARCH "004280"
+    IDS_QUEROTHEME_COLOR_LINK "008000"
+    IDS_QUEROTHEME_COLOR_SEPARATOR "C0D1AF"
+    IDS_QUEROTHEME_COLOR_HIGHLIGHT "E0E9D7"
+    IDS_QUEROTHEME_COLOR_HIGHLIGHTTEXT "404040"
+    IDS_QUEROTHEME_COLOR_DESCRIPTION "808080"
+    IDS_QUEROTHEME_COLOR_HTTPS "FFFFE0"
+    IDS_QUEROTHEME_COLOR_NOTFOUND "CC0000"
+    IDS_QUEROTHEME_COLOR_BACKGROUND "FFFFFF"
+END
+
+#endif    // German (Austria) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
